@@ -1,0 +1,23 @@
+INTRODUCTION:
+In this instructable, you will learn how to build a breadboard circuit of a real-time clock with Arduino Nano that will display the time and date on an LCD. The time and date are adjustable to the current time and date. This will require a DS3231 Real-time Clock module, a PCF8574 I/O expander that connects to 16x2 Liquid Crystal Display (LCD) via the same I2C bus as the DS3231 module. The program for this build will be created with LDmicro, an open-source lightweight application. You can ladder logic for programming PIC, ATMEL and ARM microcontrollers. The Arduino Nano will be programmed directly with LDmicro.
+FEATURE:
+Only 2 Arduino pins are occupied (Use I2C  interface)Supports standard I2C mode (100Kbit/s) and fast I2C mode (400Kbit/s).Compatible with multiple communication logic levels: 2.8~5VDC. Arduino library supported, use a line of code to complete the display.Integrate 7 sizes of ASCll fonts, 5 graphics functions.Provide dedicated picture data convert software (Bitmap Converter).Most of the complex operation is processed by I2C_LCD independent controller, saving user controller resources.Supports cursor function, can set up 16 cursor flicker frequency.Supports 128 level backlight lightness adjustment.
+Benefits: Easily to see the date and time
+WHAT:
+12C LCD WITH CLOCK
+WHY:
+To easily see the date and time
+WHEN:
+While easily see the date and time
+WHO:
+For clock shops and top most clock companies
+HOW:
+Few years ago don't know the lcd display clocks. It's take some time to see the time. For this 12C LCD with CLOCK he easily to see the date and time.
+STRENGTH:
+Every person easily to see the date and time
+WEAKNESS:
+Add in lcd display lights
+HIGH LEVEL REQUIREMENTS:
+Because serial ports are asynchronous (no clock data is transmitted), devices using them must agree ahead of time on a data rate. The two devices must also have clocks that are close to the same rate, and will remain so excessive differences between clock rates on either end will cause garbled data.
+LOW LEVEL REQUIREMENTS:
+Only two common bus lines (wires) are required to control any device/IC on the I2C network.
